@@ -23,7 +23,7 @@ export default async function Home() {
             {isAuth && <Button> Go to Chats</Button>}
           </div>
 
-          <p max-w-xl mt-1 text-lg>
+          <p className="max-w-xl mt-1 text-lg">
             Join millions of other fuckers whoa are doing this shit for a while to beat the existential dread
           </p>
 

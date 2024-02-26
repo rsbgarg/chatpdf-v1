@@ -47,3 +47,10 @@ export async function uploadtoS3(file:File) {
     
 
 }
+
+
+
+export function getS3Url(file_key: string){
+    const url = 'https://${process.env.NEXT_PUBLIC_S3_BUCLEY_NAME}.S3.${NEXT_PUBLIC_S3_BUCKET_NAME}.amazonaws.com/${file_key}';
+    return url;
+}
